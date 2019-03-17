@@ -1,0 +1,93 @@
+﻿
+@font-face {font-family: "pmit";
+  src: url('../fonts/font_qircpnsmjcrkvs4i.eot'); /* IE9*/
+  src: url('../fonts/font_qircpnsmjcrkvs4i.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/font_qircpnsmjcrkvs4i.woff') format('woff'), /* chrome, firefox */
+  url('../fonts/font_qircpnsmjcrkvs4i.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/font_qircpnsmjcrkvs4i.svg') format('svg'); /* iOS 4.1- */
+}
+
+.pmit {
+  font-family:"pmit" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pmit-game-full:before { content: "\e604"; }
+
+.pmit-user-full:before { content: "\e601"; }
+
+.pmit-label-full:before { content: "\e602"; }
+
+.pmit-car-full:before { content: "\e603"; }
+
+.pmit-suo:before { content: "\e63d"; }
+
+.pmit-delete:before { content: "\e6ed"; }
+
+.pmit-vedio:before { content: "\e60f"; }
+
+.pmit-minus:before { content: "\e68d"; }
+
+.pmit-plus:before { content: "\e68e"; }
+
+.pmit-set:before { content: "\e60b"; }
+
+.pmit-notice:before { content: "\e646"; }
+
+.pmit-plus-circle:before { content: "\eb9c"; }
+
+.pmit-article:before { content: "\e60c"; }
+
+.pmit-msg:before { content: "\e61d"; }
+
+.pmit-copy:before { content: "\e609"; }
+
+.pmit-preview:before { content: "\e619"; }
+
+.pmit-comment:before { content: "\e62f"; }
+
+.pmit-pan:before { content: "\e621"; }
+
+.pmit-trash:before { content: "\e7d6"; }
+
+.pmit-arrow-l:before { content: "\e61a"; }
+
+.pmit-audio:before { content: "\e64f"; }
+
+.pmit-arrow-b:before { content: "\e605"; }
+
+.pmit-unput:before { content: "\e608"; }
+
+.pmit-minus-circle:before { content: "\e634"; }
+
+.pmit-right:before { content: "\e606"; }
+
+.pmit-pic:before { content: "\e610"; }
+
+.pmit-arrow-r:before { content: "\e60d"; }
+
+.pmit-card:before { content: "\e61e"; }
+
+.pmit-music:before { content: "\e661"; }
+
+.pmit-addpic:before { content: "\e636"; }
+
+.pmit-menu:before { content: "\e8a0"; }
+
+.pmit-vote:before { content: "\e641"; }
+
+.pmit-arrow-t:before { content: "\e600"; }
+
+.pmit-arrow-full:before { content: "\e607"; }
+
+.pmit-big:before { content: "\e60a"; }
+
+.pmit-user:before { content: "\e633"; }
+
+.pmit-put:before { content: "\e613"; }
+
+.pmit-search:before { content: "\e60e"; }
+

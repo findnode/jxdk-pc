@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>首页</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="static/css/font_qircpnsmjcrkvs4i.css">
+    <link rel="stylesheet" href="static/css/idangerous.swiper.css">
+    <link rel="stylesheet" href="static/css/animate.css">
+    <link rel="stylesheet" href="static/css/nprogress.css">
+    <link rel="stylesheet" href="static/css/photoswipe.css">
+    <link rel="stylesheet" href="static/css/default-skin.css">
+    <link rel="stylesheet" href="static/css/portal.min.css">
+    <!--[if IE]>
+    <script src="static/js/html5.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="static/js/jquery.js"></script>
+</head>
+<body>
+<div class="g-nav">
+    <div class="nav-inbox">
+        <div class="m-nav clearfix">
+            <a href="./index.html" class=" fl">
+                <font face="微软雅黑, Microsoft YaHei" style="height: 66px;line-height: 66px"><font style="color: rgb(255, 101, 55);font-size: 32px;" color="#ff6537">嘉兴点客</font><font style="color: rgb(204, 204, 204);" color="#cccccc"><span style="font-size: 20px;">信息技术限公司</span></font></font>
+            </a>
+            <div class="fr ">
+                <i class="u-menu-icon mobile" id="u-menu-icon"></i>
+                <ul class="g-menu pc fl">
+                    <li class="active"><a href="./index.html" class="title">首页</a></li>
+                    <li class="drop-down-menu "><a href="javascript:;" class="title">产品服务</a>
+                        <ul class="m-tree-menu">
+                            <li>
+                                <div class="head">
+                                    <i class="icon icon4"></i>
+                                    <p>小程序开发</p>
+                                </div>
+                                <a href="./applet.html">小程序</a></li>
+                            <li>
+                                <div class="head">
+                                    <i class="icon icon1"></i>
+                                    <p>营销推广</p>
+                                </div>
+                                <a href="./tuiguang.html">了解推广</a></li>
+                            <li class="mr0">
+                                <div class="head">
+                                    <i class="icon icon2"></i>
+                                    <p>网站建设</p>
+                                </div>
+                                <a href="./web.html">了解网站</a></li>
+                            <li class="mr1">
+                                <div class="head">
+                                    <i class="icon icon3"></i>
+                                    <p>定制开发</p>
+                                </div>
+                                <a href="./customized.html">了解定制</a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="./investment.html" class="title">招商加盟<img
+                            style="position: absolute;margin: -16px 0 0 -9px;" src="static/picture/hot.png" alt=""></a>
+                    </li>
+                    <li class=""><a href="./list.html" class="title">案例中心</a></li>
+                    <li class=""><a href="./about.html" class="title">关于我们</a></li>
+                </ul>
+                <div class="u-login-btn pc fl loging">
+                    <a href="#" class="title">登录 <i class="u-out"></i></a>
+                    <!-- <ul class="m-login-menu"> -->
+                        <!-- 登录后台跳转链接 
+                        <li><a href="http://wxwap.pmit.cn/weapp" target="_blank">小程序</a></li>
+                        <li><a href="http://v5.pmit.cn" target="_blank">营销推广</a></li>
+                        <li><a href="http://mall.pmit.cn/shop/admin" target="_blank">众商系统</a></li> -->
+                    <!-- </ul> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 移动端 -->
+<aside class="g-side-menu mobile">
+    <div class="u-mask">
+        <div class="mask-bg">
+        </div>
+    </div>
+    <div class="menu-box">
+        <div class="logo-box">
+            <i ><font face="微软雅黑, Microsoft YaHei" style="height: 220px;line-height: 220px"><font style="color: rgb(255, 101, 55);font-size: 32px;" color="#ff6537">嘉兴点客</font><font style="color: rgb(204, 204, 204);" color="#cccccc"><span style="font-size: 20px;">信息技术限公司</span></font></font></i>
+        </div>
+        <menu class="menu-list">
+            <li><a href="." class="title"><i class="icon icon1"></i><span>首页</span></a></li>
+            <li><a href="javascript:;" class="title"><i class="icon icon2"></i><span>产品中心</span><i
+                    class="arrow"></i></a>
+                <ul class="down-menu">
+                    <li><a href="./tuiguang.html">了解推广</a></li>
+                    <li><a href="./web.html">了解网站</a></li>
+                    <li><a href="./customized.html">定制介绍</a></li>
+                    <li><a href="./applet.html">小程序开发</a></li>
+                </ul>
+            </li>
+            <li><a href="./list.html" class="title"><i class="icon icon4"></i><span>案例中心</span></a></li>
+            <li><a href="javascript:;" class="title"><i class="icon icon5"></i><span>关于我们</span><i
+                    class="arrow"></i></a>
+                <ul class="down-menu">
+                    <li><a href="./about.html">公司概况</a></li>
+                    <li><a href="./contact.html">联系我们</a></li>
+                </ul>
+            </li>
+        </menu>
+    </div>
+</aside>
+<section class="container">
+    <div class="bg-gray" style="background-color:#ebebeb;">
+        <section class="g-banner pc">
+            <div class="swiper-container" id="banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url('static/images/banner1.jpg')">
+                        <div class="hover">
+                        </div>
+                        <div class="banner-txt1">
+                            <h3 class="title ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">嘉兴点客</h3>
+                            <div class="line-dec ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">助力传统企业转型移动互联网</div>
+                            <div class="block ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                                 swiper-animate-delay="0.7s">
+                                HELP TRADITIONAL ENTERPRISES INTEGRATE WITH THE MOBILE INTERNET
+                            </div>
+                            <div class="des">
+                                <a class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                                   swiper-animate-delay="1s">
+                                   <i class="icon icon1"></i>
+                                   <span>网站</span>
+                                </a>
+                                <a class="ani">
+                                <i class="icon icon2"></i>
+                                <span>推广</span>
+                                </a>
+                                <a class="ani">
+                                <i class="icon icon3"></i>
+                                <span>微信</span>
+                                </a>
+                                <a class="ani"><i class="icon icon4"></i><span>小程序</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="g-advert mobile" style="background-image:url('static/images/banner1.jpg')"></section>
+        <section class="g-section pc">
+            <div class="u-inbox">
+                <div class="sub-title">
+                    <h3>主营产品</h3>
+                    <p>
+                        MAIN PRODUCTS
+                    </p>
+                </div>
+                <ul class="module-list clearfix">
+                    <li class="module-item bg-green">
+                        <div class="icon-bg operate-bg">
+                        </div>
+                        <div class="text">
+                            <i class="logo-icon icon4"></i>
+                            <h3>小程序</h3>
+                            <p>
+                                MINI PROGRAM
+                            </p>
+                        </div>
+                        <div class="hover">
+                            <p>
+                                腾讯官方合作伙伴 • 专业开发微信小程序
+                            </p>
+                            <a href="./applet.html" class="btn-more">点击了解</a>
+                        </div>
+                    </li>
+                    <li class="module-item bg-blue">
+                        <div class="icon-bg ship-bg">
+                        </div>
+                        <div class="text">
+                            <i class="logo-icon icon1"></i>
+                            <h3>营销推广</h3>
+                            <p>
+                                Marketing promotion
+                            </p>
+                        </div>
+                        <div class="hover">
+                            <p>
+                                一套全能的移动电商系统，囊括分销全返、O2O等模式企业营销|推广|服务平台
+                            </p>
+                            <a href="./tuiguang.html" class="btn-more">点击了解</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="g-section pc">
+            <div class="u-inbox">
+                <ul class="module-list clearfix">
+                    <li class="module-item bg-orange">
+                        <div class="icon-bg shop-bg">
+                        </div>
+                        <div class="text">
+                            <i class="logo-icon icon2"></i>
+                            <h3>网站建设</h3>
+                            <p>
+                                Website construction
+                            </p>
+                        </div>
+                        <div class="hover">
+                            <p>
+                                根据客户需求，制作高质量，令客户满意的网站
+                            </p>
+                            <a href="./web.html" class="btn-more">点击了解</a>
+                        </div>
+                    </li>
+                    <li class="module-item bg-pink">
+                        <div class="icon-bg custom-bg">
+                        </div>
+                        <div class="text">
+                            <i class="logo-icon icon3"></i>
+                            <h3>定制开发</h3>
+                            <p>
+                                CUSTOM DEVELOPMENT
+                            </p>
+                        </div>
+                        <div class="hover">
+                            <p>
+                                开发经验丰富，提供网站、微信平台、小程序技术研发
+                            </p>
+                            <a href="./customized.html" class="btn-more">点击了解</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="g-section pc">
+            <div class="u-inbox">
+                <div class="sub-title">
+                    <h3>案例展示</h3>
+                    <p>
+                        CASE SHOW
+                    </p>
+                </div>
+                <menu class="display-title" id="display-title">
+                    <li class="active"><a href="javascript:;">小程序案例</a></li>
+                    <li><a href="javascript:;">移动电商</a></li>
+                    <li><a href="javascript:;">网站建设</a></li>
+                </menu>
+                <div class="display-content">
+                    <div class="app-list-items" id="list-items-img">
+                        <ul class="app-list active my-tap1">
+                            <li class="app-item active">
+                            <img src="static/picture/case001.jpg" alt="">
+                            <div class="activeShow" style="margin-top: 38px;">
+                    <img src="static/picture/case001.png" alt="开发小程序">
+                </div></li>
+                            <li class="app-item"><img src="static/picture/case002.jpg" alt="">
+                            <div class="activeShow" style="margin-top: 38px;">
+                    <img src="static/picture/case002.png" alt="开发小程序">
+                </div></li>
+                            <li class="app-item"><img src="static/picture/case003.jpg" alt=""><div class="activeShow" style="margin-top: 38px;">
+                    <img src="static/picture/case003.png" alt="开发小程序">
+                </div></li>
+                        </ul>
+                        <ul class="app-list my-tap2">
+                            <li class="app-item active"><img src="static/picture/case026.jpg" alt=""><div class="activeShow" style="margin-top: 38px;">
+                    <img src="static/picture/case026.png" alt="开发小程序">
+                </div></li>
+                            <li class="app-item"><img src="static/picture/case027.jpg" alt=""><div class="activeShow" style="margin-top: 38px;">
+                    <img src="static/picture/case027.png" alt="开发小程序">
+                </div></li>
+                            <li class="app-item"><img src="static/picture/case028.jpg" alt=""><div class="activeShow" style="margin-top: 38px;">
+                    <img src="static/picture/case028.png" alt="开发小程序">
+                </div></li>
+                        </ul>
+                        <ul class="app-list my-tap3">
+                            <li class="app-item active"><img src="static/picture/case031.jpg" alt=""><div class="activeShow" style="margin-top: 38px;">
+                    <img src="static/picture/case031.png" alt="开发小程序">
+                </div></li>
+                            <li class="app-item"><img src="static/picture/case029.jpg" alt=""><div class="activeShow" style="margin-top: 38px;">
+                    <img src="static/picture/case029.png" alt="开发小程序">
+                </div></li>
+                            <li class="app-item"><img src="static/picture/case030.jpg" alt=""><div class="activeShow" style="margin-top: 38px;">
+                    <img src="static/picture/case030.png" alt="开发小程序">
+                </div></li>
+                        </ul>
+                    </div>
+                    <div class="app-txt">
+                        <div class="top-bar">
+                        </div>
+                        <div class="txt-item active my-tap11">
+                            <ul class="app-title">
+                                <li class="active">吉祥馄饨</li>
+                                <li>妈妈帮厨</li>
+                                <li>尚鱼烤鱼</li>
+                            </ul>
+                           <!--  <ul class="app-desc">
+                                <li class="active">
+                                    <p>
+                                        企业展示核心服务优势、项目、团队及招商加盟等推广项目。
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        适合18个主流行业打造完善的电商系统，拥有拼团、分销等营销组件。
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        通过图文、视频、导航、卡券、客服等全方位的营销功能实现企业业务推广。
+                                    </p>
+                                </li>
+                            </ul> -->
+                        </div>
+                        <div class="txt-item my-tap22">
+                            <ul class="app-title">
+                                <li class="active">分销电商</li>
+                                <li>分销电商</li>
+                                <li>微电商</li>
+                            </ul>
+                        </div>
+                        <div class="txt-item my-tap33">
+                            <ul class="app-title">
+                                <li class="active">微网站</li>
+                                <li>网站建设</li>
+                                <li>网站建设</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="g-section mobile">
+            <div class="u-inbox">
+                <div class="display-content">
+                    <div class="display-sort">
+                        <span>小程序案例</span>
+                    </div>
+                    <div class="app-list-items">
+                        <div class="swiper-container" id="app-list3">
+                            <div class="swiper-wrapper app-list">
+                                <div class="swiper-slide">
+                                    <span class="m-title">吉祥馄饨</span>
+                                    <div class="app-item">
+                                        <img src="static/picture/case001.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span class="m-title">妈妈帮厨</span>
+                                    <div class="app-item">
+                                        <img src="static/picture/case002.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span class="m-title">尚鱼烤鱼</span>
+                                    <div class="app-item">
+                                        <img src="static/picture/case003.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="g-section mobile">
+            <div class="u-inbox">
+                <div class="display-content">
+                    <div class="display-sort">
+                        <span>移动电商</span>
+                    </div>
+                    <div class="app-list-items">
+                        <div class="swiper-container" id="app-list1">
+                            <div class="swiper-wrapper app-list">
+                                <div class="swiper-slide">
+                                    <span class="m-title">分销电商</span>
+                                    <div class="app-item">
+                                        <img src="static/picture/case026.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span class="m-title">分销电商</span>
+                                    <div class="app-item">
+                                        <img src="static/picture/case027.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span class="m-title">微电商</span>
+                                    <div class="app-item">
+                                        <img src="static/picture/case028.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="g-section mobile">
+            <div class="u-inbox">
+                <div class="display-content">
+                    <div class="display-sort">
+                        <span>网站建设</span>
+                    </div>
+                    <div class="app-list-items">
+                        <div class="swiper-container" id="app-list2">
+                            <div class="swiper-wrapper app-list">
+                                <div class="swiper-slide">
+                                    <span class="m-title">微网站</span>
+                                    <div class="app-item">
+                                        <img src="static/picture/case031.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span class="m-title">网站建设</span>
+                                    <div class="app-item">
+                                        <img src="static/picture/case029.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span class="m-title">网站建设</span>
+                                    <div class="app-item">
+                                        <img src="static/picture/case030.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="g-section team-box pc"><img src="static/picture/team_bg.jpg" alt="广州APP开发" class="team-bg">
+    <div class="u-inbox">
+        <div class="sub-title">
+            <h3>我们是谁</h3>
+            <p>
+                ABOUT US
+            </p>
+        </div>
+        <div class="team-content">
+            <p class="desc">
+                公司成立于2014年，专业从事移动互联网信息服务、移动电商服务和小程序开发的新型科技企业，是互联网生态整合营销解决方案专家。公司业务涉及网站和小程序的开发定制、腾讯社交广告服务、自媒体广告营销等。目前已为众多优秀企业/商家提供了专业有效的品牌传播解决方案。
+            </p>
+            <div class="who-list-wrap">
+                <ul class="who-list">
+                    <li class="who-item"><img src="static/picture/team_pic1.jpg" alt="">
+                    </li>
+                    <li class="who-item"><img src="static/picture/team_pic2.jpg" alt="">
+
+                    </li>
+                    <li class="who-item"><img src="static/picture/team_pic3.jpg" alt="">
+                    </li>
+                    <li class="who-item"><img src="static/picture/team_pic4.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="g-section mobile">
+    <div class="u-inbox">
+        <div class="sub-title">
+            <h3>关于我们</h3>
+            <p>
+                ABOUT US
+            </p>
+        </div>
+        <div class="team-content">
+            <div class="swiper-container who-list-wrap" id="about">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="who-item">
+                            <img src="static/picture/team_pic1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="who-item">
+                            <img src="static/picture/team_pic2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="who-item">
+                            <img src="static/picture/team_pic3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="who-item">
+                            <img src="static/picture/team_pic4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                </div>
+            </div>
+        </div>
+    </div>
+    </section><section class="g-section">
+    <div class="u-inbox">
+        <div class="sub-title">
+            <h3>合作企业</h3>
+            <p>
+                BRAND  ENTERPRISE
+            </p>
+        </div>
+        <div class="logos-wrap">
+            <ul class="logolist">
+                <li><img src="static/picture/u_logo11.png" alt=""></li>
+                <li><img src="static/picture/u_logo22.png" alt=""></li>
+                <li><img src="static/picture/u_logo33.png" alt=""></li>
+                <li><img src="static/picture/u_logo44.png" alt=""></li>
+                <li><img src="static/picture/u_logo55.png" alt=""></li>
+                <li><img src="static/picture/u_logo66.png" alt=""></li>
+                <li><img src="static/picture/u_logo77.png" alt=""></li>
+                <li><img src="static/picture/u_logo88.png" alt=""></li>
+                <li><img src="static/picture/u_logo99.png" alt=""></li>
+                <li><img src="static/picture/u_logo1010.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    </section>
+
+        <section class="g-section">
+            <div class="u-inbox">
+                <div class="sub-title">
+                    <h3>新闻资讯</h3>
+                    <p>
+                        NEWS
+                    </p>
+                </div>
+                <div class="news-wrap article-list-wrap">
+                    <ul class="article-list news-list clearfix">
+                        <li class="article-item sr-default"><a href="./748.html">
+                            <div class="pic-box">
+                                <img src="static/picture/1709ce6e007e8e2eb47cf99b616d75ab.png"
+                                     alt="">
+                                <div class="hover">
+                                    <h3 class="title">小程序升级，让腾讯向苹果又迈进了一步</h3>
+                                </div>
+                            </div>
+                            <div class="txt-box">
+                                微信之父张小龙曾预言：“未来两年内，小程序将取代80%的APP”！
+                            </div>
+                        </a></li>
+                        <li class="article-item sr-default"><a href="./749.html">
+                            <div class="pic-box">
+                                <img src="static/picture/cb6ef4df059ca78cc19e22397c18cacc.png"
+                                     alt="">
+                                <div class="hover">
+                                    <h3 class="title">微信帮你做了个「广告牌」，3步收割10亿流量</h3>
+                                </div>
+                            </div>
+                            <div class="txt-box">
+                                “微信小程序是连接线上线下的便捷工具,是方便用户的轻量级应用。”
+                            </div>
+                        </a></li>
+                        <li class="article-item sr-default"><a href="./750.html">
+                            <div class="pic-box">
+                                <img src="static/picture/ed5a6b27b5b7d863eadecf0dde4c2c5a.jpg" alt="">
+                                <div class="hover">
+                                    <h3 class="title">朱啸虎：2018年是小程序唯一的流量红利期</h3>
+                                </div>
+                            </div>
+                            <div class="txt-box">
+                                被称为“风口制造者”的朱啸虎再次为他看好的领域摇旗呐喊，这一次是“小程序”。
+                            </div>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="u-mask" id="form-mask" style="display: none;">
+        <div class="mask-bg">
+        </div>
+        <div class="enroll-form">
+            <i class="u-close"></i>
+            <form action="./form/save" id="save-form" class="contact-form" method="post">
+                <input type="hidden" name="form.type" value="attendance">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="公司名称" name="form.company_name" datatype="*" nullmsg="请填写公司名称">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="联系电话" name="form.contact_number" datatype="*" nullmsg="请填写联系电话">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="联系人" class="half-input" name="form.contact_person" datatype="*"
+                               nullmsg="请填写联系人"><input type="text" placeholder="职位" class="half-input"
+                                                       name="form.position">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="QQ或微信" class="half-input" name="form.social_contact">
+                        <select name="form.parking_spaces" class="half-input">
+                            <option value="1">需要车位</option>
+                            <option value="0">不需要车位</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-btn">
+                    <button type="submit" class="btn btn-more">提交</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script> $(function () {
+        var banner = new Swiper('#banner', {
+            effect: 'fade',
+            autoplay: 5000,
+            autoplayDisableOnInteraction: false,
+            onInit: function (swiper) {
+                swiperAnimateCache(swiper);
+                swiperAnimate(swiper);
+            },
+            onSlideChangeEnd: function (swiper) {
+                swiperAnimate(swiper);
+            }
+        });
+        var caselist = new Swiper('#about', {
+            pagination: '#about .pagination',
+            paginationClickable: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            initialSlide: 1,
+            resizeReInit: true
+        });
+//        caselist.reInit();
+        var applist1 = new Swiper('#app-list1', {
+            pagination: '#app-list1 .pagination',
+            paginationClickable: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            initialSlide: 1,
+            resizeReInit: true
+        });
+        var applist2 = new Swiper('#app-list2', {
+            pagination: '#app-list2 .pagination',
+            paginationClickable: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            initialSlide: 1,
+            resizeReInit: true
+        });
+        var applist3 = new Swiper('#app-list3', {
+            pagination: '#app-list3 .pagination',
+            paginationClickable: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            initialSlide: 1,
+            resizeReInit: true
+        });
+        $(window).on('resize', function () {
+            applist1.reInit();
+        });
+    });
+    $(function () {
+        ajaxForm($("#save-form"), {
+            success: function () {
+                layer.msg("提交成功");
+                $('#form-mask').fadeOut();
+            }
+        });
+    }); </script>
+</section>
+<footer class="g-footer pc">
+	<div class="u-inbox">
+		<div class="m-company-info clearfix">
+			<div class="u-content fl">
+				<div class="logo">
+				</div>
+				<div class="links clearfix">
+					<a href="./investment.html" target='_parent'>小程序加盟</a>| <a href="./applet.html" target='_parent'>小程序开发</a>| <a href="./list.html" target='_parent'>案例中心</a>| <a href="./about.html" target='_parent'>关于我们</a>| <a href="./webguide.html" target='_parent'>网站地图</a>
+				</div>
+				<menu class="m-workspace clearfix">
+					<li>
+						<div class="inbox">
+							<h3>嘉兴点客</h3>
+							<span class="cite">嘉兴点客 信息技术有限公司</span>
+							<p>
+								地址: 浙江省杭州嘉兴市南湖区秦逸路56号华隆广场-2栋-1713
+							</p>
+						</div>
+					</li>
+				</menu>
+				<div class="links contact-link">
+					<a href="mailto:2639776014@qq.com" class="sm-box"><img src="static/picture/mail.png" alt="2639776014@qq.com"></a><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2639776014&amp;site=qq&amp;menu=yes" target="_blank" class="" title="在线咨询"><img src="static/picture/qq.png" alt="2639776014"></a><a href="#" class="cell-box"><img src="static/picture/cell.png" alt=""><strong>0573-83313919</strong></a>
+				</div>
+			</div>
+			<div class="u-sm fr">
+				<img src="static/picture/sm.png" alt="">
+				<p>
+					关注公众号
+				</p>
+			</div>
+		</div>
+		<div class="m-copyright">
+			©Copyright 2018 嘉兴点客信息技术有限公司 版权所有<a href="http://www.miitbeian.gov.cn/" target="_blank">浙ICP备16038062号</a>
+		</div>
+	</div>
+</footer><footer class="g-footer mobile-footer mobile">
+	<div class="footer-box">
+		<div class="contact-list fl">
+			<h3 class="title">免费咨询</h3>
+			<p class="item">
+				<i class="icon icon-phone"></i>0573-83313919
+			</p>
+			<p class="item">
+				<i class="icon icon-mail"></i>2639776014@qq.com
+			</p>
+		</div>
+		<div class="u-sm fr">
+			<img src="static/picture/sm.png" alt="">
+		</div>
+	</div>
+	<div class="copyright">
+    ©Copyright 2018 嘉兴点客信息技术有限公司 版权所有<a href="http://www.miitbeian.gov.cn/" target="_blank">浙ICP备16038062号</a>
+	</div>
+</footer>
+<script type="text/javascript" charset="utf-8" src="static/js/idangerous.swiper.js"></script>
+<script type="text/javascript" charset="utf-8" src="static/js/layer.js"></script>
+<script type="text/javascript" charset="utf-8" src="static/js/scrollreveal.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="static/js/swiper.animate.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="static/js/nprogress.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="static/js/photoswipe.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="static/js/photoswipe-ui-default.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="static/js/portal.js"></script>
+</body>
+</html>
